@@ -1,0 +1,103 @@
+/* Global style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  border: 1px solid whitesmoke;
+}
+
+input {
+  background: url('https://i.ibb.co/wCJCTXN/lens.png') center left no-repeat;
+  background-size: 1.5em;
+  height: 2em;
+  padding-left: 2em;
+  margin-right: 3em;
+}
+
+header h3 {
+  margin-left: 2em;
+}
+
+section header h4 {
+  font-size: 1.5em;
+  color: darkgray;
+}
+
+main section {
+  border: 1px solid whitesmoke;
+  padding: 1em;
+}
+
+/*  
+Style The Top Header
+
+Todo: 
+  Make the top header a flex container. Position the <h3>Courses</h3>
+  at the left-end side and the search form and the right-end side
+  using flex properties. Both elements should be centered vertically.
+*/
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+}
+
+/*
+Style The Menu
+
+Todo:
+  Have all the list items horizontally on a single row and remove
+  the bullets. In other words, style the unordered list so it looks
+  like a menu.
+
+*/
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin: 0em 1em;
+}
+
+/* 
+Style main
+
+Todo:
+  The main tag is the parent container of the three section tags.
+  Style the main tag, so all sections are next to one another
+  horizontally and not stacked onto one another.
+*/
+
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+/*  
+Style each sections
+
+Todo:
+  Using flex, have the 3 sections use 33% of the available space
+  (have 3 columns of equal length).
+  Make sure the content is stacked vertically.
+*/
+
+
+
+/*  
+Style the header of the main section
+
+Todo:
+  Have the header of each section centered horizontally using flex.  
+  
+*/
+
+
